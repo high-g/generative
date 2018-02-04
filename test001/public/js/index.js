@@ -1,5 +1,7 @@
 function setup() {
-  createCanvas(640, 480);
+  var WIDTH = window.innerWidth;
+  var HEIGHT = window.innerHeight;
+  createCanvas(WIDTH, HEIGHT);
 }
 
 function draw() {
