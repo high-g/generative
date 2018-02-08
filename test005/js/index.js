@@ -15,7 +15,15 @@ var Walker = function() {
 
 Walker.prototype = {
   construct: function() {
+    this.x = window.innerWidth;
+    this.y = window.innerHeight;
+  },
+
+  display: function() {
+    
+  },
+  
+  step: function() {
     
   }
-  
 };
