@@ -15,8 +15,9 @@ function setup() {
 function draw() {
   background(0);
 
-  v1.x += velocity.x;
-  v1.y += velocity.y;
+  // v1.x += velocity.x;
+  // v1.y += velocity.y;
+  v1.add(velocity);
 
   if((v1.x > width) || (v1.x < 0)) {
     velocity.x = velocity.x * -1;
