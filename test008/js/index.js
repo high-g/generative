@@ -38,6 +38,10 @@ function setup() {
   v_random.mult(1000);
   line(0,0, v_random.x, v_random.y);
   console.log(v_random);
+
+
+  console.log(p5.Vector.random2D().mult(1000));
+  console.log(random(1000));
 }
 
 function draw() {

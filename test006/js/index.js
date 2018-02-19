@@ -25,5 +25,5 @@ function draw() {
 
   stroke(0);
   fill(175);
-  ellipse(x, y, 16, 16);
+  ellipse(x, y, 50, 50);
 }
