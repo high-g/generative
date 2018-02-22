@@ -21,10 +21,11 @@ p.constructor = function() {
   this.location = createVector(this.width / 2, this.height / 2);
   this.velocity = createVector(0,0);
   this.acceleration = createVector(-0.001, 0.01);
-  this.topspeed = 100;
+  this.topspeed = 5;
 }
 
 p.update = function() {
+  this.acceleration = p5.Vector.random2D();
   this.velocity.add(this.acceleration);
   this.velocity.limit(this.topspeed);
   this.location.add(this.velocity);
