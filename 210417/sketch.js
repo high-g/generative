@@ -1,7 +1,8 @@
+let num = 1
+
 function setup() {
-  console.log('setup')
+  console.log(num)
+  console.log(num++)
 }
 
-function draw() {
-  console.log('draw')
-}
+function draw() {}
