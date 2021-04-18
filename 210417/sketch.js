@@ -1,5 +1,5 @@
-let numa = 100
-let numb = 60
+let numa = 21
+let numb = 17
 let numc
 let count = 0
 let gcf
@@ -7,6 +7,7 @@ let gcf
 function setup() {
   Euclid(numa, numb)
   console.log(gcf)
+  ellipse(50, 50, 80, 80)
 }
 
 function draw() {}
