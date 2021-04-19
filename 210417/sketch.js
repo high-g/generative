@@ -1,5 +1,5 @@
-let numa = 21
-let numb = 17
+let numa = 10
+let numb = 6
 let numc
 let count = 0
 let gcf
