@@ -1,13 +1,13 @@
+let scaler = 50
 let numa = 10
 let numb = 6
 let numc
-let count = 0
-let gcf
+let gcd
 
 function setup() {
+  createCanvas(window.innerWidth, window.innerHeight)
   Euclid(numa, numb)
-  console.log(gcf)
-  ellipse(50, 50, 80, 80)
+  rect(0, 0, 100, 80)
 }
 
 function draw() {}
@@ -15,9 +15,8 @@ function draw() {}
 function Euclid(num1, num2) {
   numc = num1 % num2
   if (numc === 0) {
-    gcf = num2
+    gcd = num2
   } else {
-    count++
     Euclid(num2, numc)
   }
 }
