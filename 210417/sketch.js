@@ -5,9 +5,9 @@ let numc
 let gcd
 
 function setup() {
-  createCanvas(window.innerWidth, window.innerHeight)
+  createCanvas(500, 500)
   Euclid(numa, numb)
-  rect(0, 0, 100, 80)
+  rect(0, 0, 100, 110)
 }
 
 function draw() {}
