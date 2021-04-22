@@ -6,7 +6,7 @@ let numc
 let gcd
 
 function setup() {
-  createCanvas(800, 600)
+  createCanvas(800, 650)
   rect(10, 10, viewNum(numa), viewNum(numb))
 }
 
